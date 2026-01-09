@@ -58,3 +58,26 @@ overall connection
    5V ----┤ +5 From BEC / USB
   GND ----┤ Common Ground
           └───────────────────────────────┘
+
+
+
+| Leg | Joint | Servo Pin | PWM Timer    |
+| --- | ----- | --------- | ------------ |
+| RF  | Upper | D3        | PWM (Timer2) |
+| RF  | Lower | D5        | PWM (Timer0) |
+| LF  | Upper | D6        | PWM (Timer0) |
+| LF  | Lower | D9        | PWM (Timer1) |
+| RB  | Upper | D10       | PWM (Timer1) |
+| RB  | Lower | D11       | PWM (Timer2) |
+| LB  | Upper | D8        | digital      |
+| LB  | Lower | D13       | digital      |
+
+Servo Orientation 
+Upper Joint: Hip Pitch
+90° = leg vertical
+120° = forward
+60° = backward
+Lower Joint: Knee Pitch
+90° = straight
+120° = bent
+60° = extended
