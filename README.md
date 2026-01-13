@@ -5,38 +5,27 @@
    USB (Tail)
 
 
-# MPU6050 connection 
-MPU VCC → 3.3V or 5V
-MPU GND → GND
-MPU SDA → A4
-MPU SCL → A5
+# Servos Connection
+FL Hip  → D2
+FL Knee → D3
+FR Hip  → D4
+FR Knee → D5
+BL Hip  → D6
+BL Knee → D7
+BR Hip  → D8
+BR Knee → D9
 
+# MPU6050 Conenction
+SDA → A4
+SCL → A5
+VCC → 5V
+GND → GND
 
-# IR receivers connection
-IR OUT → D12
-IR VCC → 5V
-IR GND → GND
-
-
-# HC-05 connection
-HC-05 TX → Nano RX (D0)
-HC-05 RX → Nano TX (D1) 
-HC-05 VCC → 5V
-HC-05 GND → GND
-
-
-# Servo connection 
-LF_HIP  = 2,   // Left Front Hip (Pitch)
-LF_KNEE = 3,   // Left Front Knee (Pitch)
-
-RF_HIP  = 4,   // Right Front Hip
-RF_KNEE = 5,   // Right Front Knee
-
-LB_HIP  = 6,   // Left Back Hip
-LB_KNEE = 7,   // Left Back Knee
-
-RB_HIP  = 8,   // Right Back Hip
-RB_KNEE = 9,   // Right Back Knee
+# HC-05 Connection
+TX → D0 (Nano RX)
+RX → D1 (Nano TX via divider)
+VCC → 5V
+GND → GND
 
 
 # Servo Orientation 
