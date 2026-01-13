@@ -1,31 +1,31 @@
-Servo position 
+# Servo position 
    FRONT
  [LF]   [RF]
  [LB]   [RB]
    USB (Tail)
 
 
-MPU6050 connection 
+# MPU6050 connection 
 MPU VCC → 3.3V or 5V
 MPU GND → GND
 MPU SDA → A4
 MPU SCL → A5
 
 
-IR receivers connection
+# IR receivers connection
 IR OUT → D12
 IR VCC → 5V
 IR GND → GND
 
 
-HC-05 connection
+# HC-05 connection
 HC-05 TX → Nano RX (D0)
 HC-05 RX → Nano TX (D1) 
 HC-05 VCC → 5V
 HC-05 GND → GND
 
 
-Servo connection 
+# Servo connection 
 LF_HIP  = 2,   // Left Front Hip (Pitch)
 LF_KNEE = 3,   // Left Front Knee (Pitch)
 
@@ -39,7 +39,7 @@ RB_HIP  = 8,   // Right Back Hip
 RB_KNEE = 9,   // Right Back Knee
 
 
-Servo Orientation 
+# Servo Orientation 
 Upper Joint: Hip Pitch
 90° = leg vertical
 120° = forward
@@ -50,7 +50,7 @@ Lower Joint: Knee Pitch
 60° = extended
 
 
-Mechanical model 
+# Mechanical model 
 Leg DOF:        2 (hip pitch + knee pitch)
 Foot style:     Flat pad
 Stance:         Rectangular
