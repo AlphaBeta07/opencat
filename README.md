@@ -4,7 +4,6 @@
  [LB]   [RB]  
    USB (Tail)  
 
-
 # Servos Connection
 FL Hip  → D2  
 FL Knee → D3  
@@ -40,10 +39,9 @@ Lower Joint: Knee Pitch
 120° = bent  
 60° = extended  
   
-  
 # Mechanical model 
 Leg DOF:        2 (hip pitch + knee pitch)  
-Foot style:     Flat pad  
+Foot style:     round pad  
 Stance:         Rectangular  
 Dimensions:     40mm + 55mm  
 Height/clear:   ~95-100mm  
@@ -51,5 +49,5 @@ Drive style:    Tank turn + trot
 Controller:     Arduino Nano (USB tail)  
 Servos:         SG90 x 8  
 IMU:            MPU6050 (pitch-only correction)  
-Power:          2S → BEC 5V  
-Comms:          IR + HC05 + Serial fallback  
+Power:          2S → BEC 5V / power bank  
+Comms:          HC05 + Serial fallback  
