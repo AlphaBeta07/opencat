@@ -27,7 +27,9 @@ RX → D1 (Nano TX via divider)
 VCC → 5V  
 GND → GND  
   
-  
+# Initial Position before attaching servo horn
+![Initial Position](initial_pos.png)
+
 # Servo Orientation 
 Upper Joint: Hip Pitch  
 90° = leg vertical  
