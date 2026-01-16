@@ -1,14 +1,22 @@
 /****************************************************
-  Leo the Pet Cat — Enhanced Version (Nano DMP)
+  OPenCat — Enhanced Version (Nano DMP)
   - HC05 Bluetooth control
-  - Commands: F,B,L,R,S,A,M,D,C
-  - Postures: Stand, Sit, Lay, Sleep
+  - Commands & Posture: 
+      Stand =  A
+      Sit =  M
+      Lay =  D
+      Sleep =  C
+      Forward =  F
+      Backward =  B
+      Left =  L
+      Right =  R
+      Stop = S
   - Stop = Freeze
   - Walk Gait
   - Light Stabilization (DMP Pitch/Roll)
   - Arduino Nano / SG90 / No Debug Prints
+  - Refernce — https://chatgpt.com/share/69665a56-306c-8009-91d1-57aafb79f5ba
 ****************************************************/
-// https://chatgpt.com/share/69665a56-306c-8009-91d1-57aafb79f5ba
 
 #include <Wire.h>
 #include <Servo.h>
@@ -451,5 +459,3 @@ void loop() {
 
   applyAngles();
 }
-
-/************** END OF FILE **************/
